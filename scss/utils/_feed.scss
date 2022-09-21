@@ -1,0 +1,27 @@
+@import 'variables';
+.feed {
+  .filter-and-search-posts {
+    button {
+      color: red;
+    }
+  }
+  .all-posts {
+    background: rgb(234, 159, 159);
+    // margin-bottom: 4rem;
+    .single-post-feed {
+      cursor: pointer;
+      &:hover {
+        background: #fed;
+      }
+    }
+  }
+  .load-more-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    .load-more-btn {
+      padding: 0.5rem 1rem;
+    }
+  }
+}
